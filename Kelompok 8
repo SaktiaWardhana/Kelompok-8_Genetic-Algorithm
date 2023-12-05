@@ -157,7 +157,7 @@ print("All the features in this dataset have continuous values")
 score3 = acc_score(data_pd,label_pd)
 score3
 
-![Uploading WhatsApp Image 2023-12-05 at 09.28.08_a5319241.jpg…]()
+![Uploading WhatsApp Image 2023-12-05 at 09.28.08_3334a5f5.jpg…]()
 
 
 
@@ -167,13 +167,14 @@ X_train,X_test, Y_train, Y_test = split(data_pd,label_pd)
 chromo_df_pd,score_pd=generations(data_pd,label_pd,size=80,n_feat=data_pd.shape[1],n_parents=64,mutation_rate=0.20,n_gen=15,
                          X_train = X_train,X_test = X_test,Y_train = Y_train,Y_test = Y_test)
 
-
+![Uploading WhatsApp Image 2023-12-05 at 09.28.25_a4855cec.jpg…]()
 
 
 
 
 plot(score_pd,0.9,1.0,c = "orange")
-gambar
+
+![Uploading WhatsApp Image 2023-12-05 at 09.28.44_1cabb18a.jpg…]()
 
 
 
